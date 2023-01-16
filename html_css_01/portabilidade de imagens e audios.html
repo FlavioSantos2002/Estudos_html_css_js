@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portabilidade</title>
+</head>
+<body>
+    <h1>portabilidade</h1>
+    <p>Colocando arquivos de imagens de tamanhos variaveis usando a teg picture</p><br>
+    <picture>
+        <source media="(max-width: 500px)" srcset="arquivosdeportabilidade/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="arquivosdeportabilidade/foto-m.png" type="image/png">
+        <img src="arquivosdeportabilidade/foto-g.png" alt="foto-g">
+    </picture>
+    <h2>Atenção</h2>
+    <p>não usar espações nos nomes deas pastas</p>
+    <h2>audio no html</h2> 
+    <audio src="audios/Camisa10.mp3" controls></audio>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audios/Camisa10.mp3" type="audio/mpeg">
+        <source src="audios/Camisa10_o.ogg" type="audio/ogg">
+        <source src="audios/Camisa10_w.wav" type="audio/wav">
+        <p>navegador sem audio</p>
+    </audio>
+</body>
+</html>
