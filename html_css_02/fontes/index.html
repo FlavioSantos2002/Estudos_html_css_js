@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Pt-Br</title>
+
+<style>
+    /*fonte importada do google fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+    /*
+        para usar uma fonte que baixamos:
+    */
+    @font-face {
+        font-family: "teste";
+        src: url("../fontes/fontes_baixadas/Love.ttf") format("truetype");
+        /*ver os tipos de format*/
+    }
+
+
+    body{
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1.4em; /*1.3 vezes maior que o tamanho normal 
+
+        /*
+        quanto ao tamanho use "px", tomar cuidado com a variação de tamanho dos pixels em diferntes dispositivos
+        ou
+        "em" que é o tamanho da letra normal equivale a 16px NORMALMENTE        
+        */
+    }
+    h2{
+        font-family: teste;
+        background-color: aquamarine;
+        font-size: 1.6em;
+        font-weight: normal; /*tira o negrito*/
+    }
+</style>
+</head>
+<body>
+    <h1>fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repudiandae sed doloribus vero qui illum exercitationem dolorum error quos omnis sunt sequi provident, veritatis aspernatur nulla veniam esse facere ipsa!</p>
+    <h2>fonte baixada</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium iure incidunt repellendus, cum at doloribus autem, rem adipisci mollitia ad amet qui asperiores libero. Animi sapiente maxime ad quae ut!</p>
+    
+</body>
+</html>

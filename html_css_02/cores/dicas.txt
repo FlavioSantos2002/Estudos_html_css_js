@@ -1,0 +1,7 @@
+sites
+https://color.adobe.com/pt/create 
+https://paletton.com
+https://coolors.co/
+
+dicas 
+uso do colorzila do google crome 

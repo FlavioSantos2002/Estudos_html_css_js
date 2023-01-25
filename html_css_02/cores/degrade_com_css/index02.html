@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>degrade</title>
+    <style>
+        /*
+        note que para cima e para baixo temos que alterar o tamanho da altura nas configurações gerais da css
+        atraves do::after
+        *{
+            height: valor%
+        } 
+        */
+        *{
+            height: 100%
+        } 
+        body{
+            background-image: linear-gradient(to bottom, #8CF59A, #87C1FA, #ED8EFF); /*degrade do adobe color
+            
+            /*to right, to left, to top and to bottom
+            ou tambem da pra fazer com os angulos 
+            ex: 90deg
+            */ 
+            background-attachment: fixed;/* fixa o background*/
+        }
+        button{
+            background-image: linear-gradient(90deg, #003E8D, #BC1F7A, #C12637, #E1A934);
+            border-color: #C12637;
+            border-bottom: 0.5cm;
+        }
+    </style>  
+</head>
+<body>
+    <h1>degrade</h1>
+    <div style="text-align: unset;">
+    <button style="width: 5cm; height: 2cm;">teste</button>
+    </div>
+</body>
+</html>
