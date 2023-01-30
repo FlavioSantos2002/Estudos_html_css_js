@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    margin: 0%;
+}
+header{
+    background-image: linear-gradient(to bottom, #4bffa8, #0f542d);
+    text-align: center;
+    margin: 0;
+    height: 260px;
+    padding-bottom: 0%;
+
+}
+
+#titulos{
+    margin: 0%;
+}
+
+header>h1{
+    font-family: osvaldo;
+    color: white;
+    margin-top: 0%;
+}
+header>h3{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+}
+nav{
+    text-align: left;
+    height: 40px;
+    margin-top: -38px;
+}
+
+nav>.botoes_menu{
+    color: white;
+    background-color: #3656484a;
+    font-size: 1.26em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: -2px;
+    padding-top: 0.79em;
+    padding-bottom: 0.79em;
+    text-decoration: none;
+}
+
+nav>.botoes_menu:hover{
+    background-color: #28b973;
+}

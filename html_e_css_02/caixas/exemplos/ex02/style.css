@@ -38,12 +38,12 @@ main{
     margin: 0px;
     text-align: center;
 }
-#paragrafos{ 
+.paragrafos{ 
        
     text-align: justify;
     margin: 1em;    
 }
-#paragrafos>p{
+p{
     text-indent: 1.5em;
 }
 
@@ -51,14 +51,16 @@ nav{
     background-color: #2f323a;
     height: 40px;
     font-size: 1.5em;
+    text-align: center;
 }
 
 
 nav>a{
     color: white;
     text-decoration: none;
-    margin-left: 8%;
-    margin-right: 8%;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #2f323a;
 }
 
 nav>a:hover{
@@ -77,4 +79,21 @@ footer{
 
 footer>p{
     margin: 0%;
+}
+
+#sombras>h2{
+    box-shadow: 4px -10px 10px #8a8a8a;
+    text-shadow: 12px 3px 7px black;
+    border: solid;
+}
+
+#pontas_redondas{
+    border: solid;
+    background-color: pink;
+    border-radius: 90px;
+}
+
+div#pontas_redondas>p {
+    margin: 6px;
+    text-align: center;
 }
