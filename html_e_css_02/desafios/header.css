@@ -40,19 +40,20 @@ nav{
     height: 40px;
     margin: -2.5em 0 0 0;
     min-width: 30em;
-    
+    font-weight: bold;
 }
 
 nav>.botoes_menu{
     color: white;
     background-color: #3656484a;
-    font-size: 1.26em;
+    font-size: 1.22em;
     padding-left: 1em;
     padding-right: 1em;
     margin: -2px;
     padding-top: 0.79em;
     padding-bottom: 0.79em;
     text-decoration: none;
+    /*transition-duration: 0.5s;  --> faz uma transição*/
 }
 
 nav>.botoes_menu:hover{

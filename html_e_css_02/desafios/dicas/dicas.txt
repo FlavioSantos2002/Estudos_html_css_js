@@ -1,0 +1,30 @@
+1- usar variaveis pra guardar as cores e fontes que vao ser usadas em todo site
+
+2- 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+isso configura todo o site, é muito util pra tirar as margins e paddings
+
+
+3 - 
+
+imagens no geral nao sao blocos, portanto margin auto nao funciona para centralizar
+
+
+4- aprender a usar o html semantico:
+
+por exemplo: 
+
+<aside>
+
+server para conteudos perifericos, como curiosidade etc
+
+</aside>
+
+5-
+
+para dividir a lista, uma das maneiras, basta informar o numero de colunas da mesma

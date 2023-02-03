@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+Podemos usar variaveois pra guardar informaçoes 
+
+root:{
+    --cor1: rgb(255, 156, 167);
+}
+
+*/
+
+
+:root{
+    --cor1: rgb(255, 156, 167); 
+}
+
+
+
+body{
+    background-color: var(--cor1); /* variavel com a cor armazenada*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+   color: rgb(115, 0, 135);
+   background-color: rgb(255, 174, 174);
+}
+h2{
+    color: rgb(86, 114, 214);
+}
+h3{
+    color: rgb(14, 56, 93);
+}

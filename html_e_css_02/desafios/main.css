@@ -20,7 +20,7 @@ main{
     border-radius: 0px 0px 15px 15px;
     padding-bottom: 0.5em;
     min-width: 480px;
-    max-width: 75%;
+    max-width: min-content;
 }
 
 main>section{
@@ -107,15 +107,9 @@ h4{
 
 .lista{
     list-style-type: "✔";
-    padding-left: 0em;
-    display: inline-block;
-    width: 42%;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 3%;
-    margin-inline-end: 0px;
-    padding-inline-start: 17px;
+    columns: 2;
 }
+
 
 
 .item{
@@ -123,6 +117,18 @@ h4{
     width: max-content;
 }
 
+p>.externo{
+    background-color: #4bffa8;
+    cursor: pointer;
+    color: #22785a;
+    -webkit-text-stroke-width: thick;
+    text-decoration: none;
+}
+
 a.externo::after{
     content:'\00A0\1F517';
+}
+
+.externo:hover{
+    text-decoration: underline;
 }
