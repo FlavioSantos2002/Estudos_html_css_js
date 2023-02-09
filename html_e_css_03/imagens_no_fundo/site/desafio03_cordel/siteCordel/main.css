@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+main{
+    width: 100%;
+    background-color: rgb(255, 189, 189);
+}
+
+section>p,.p{
+    height: max-content;
+    display: block;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4em; 
+    background-color: white;  
+
+}
+
+main>section>#e1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+}
