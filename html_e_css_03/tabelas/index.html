@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #t1>table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        #t2>table{
+            width: 400px;
+            border-collapse: collapse;
+            height: 400px;
+        }
+
+        #t2 tbody>tr:nth-child(2n){
+            background-color: rgb(111, 111, 111);
+        }
+
+
+        td{
+            padding: 8px;
+            border-style: solid;
+            border-color: black;
+        }
+        .tipoddd{
+            text-align: center;
+            background-color: rgb(152, 145, 145);
+        }
+
+        .ct{
+            vertical-align: top;
+        }
+        .cb{
+            text-align: center;
+            vertical-align: bottom;
+        }
+        .lb{
+            text-align: left;
+            vertical-align: bottom;
+
+        }
+
+        .rt{
+            text-align: right;
+            vertical-align: top;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="t1">
+        <h1>primeira tabela</h1>
+        <table>
+            <tr class="tipoddd">
+                <td>produto</td>
+                <td>codigo</td>
+                <td>preço</td>          
+            </tr>
+            <tr>
+                <td>maçã</td>
+                <td>001</td>
+                <td>R$ 6,00</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>002</td>
+                <td>R$ 5,00</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>003</td>
+                <td>R$ 4,00</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="t2">
+        <h1>segunda tabela</h1>
+        <table>
+            <tr class="tipoddd">
+                <td class="ct">A</td>
+                <td class="ct">B</td>
+                <td class="ct">C</td>          
+            </tr>
+            <tr>
+                <td class="cb">A1</td>
+                <td class="cb">B1</td>
+                <td class="cb">C1</td>
+            </tr>
+            <tr>
+                <td class= "lb">A2</td>
+                <td class= "lb">B2</td>
+                <td class= "lb">C2</td>
+            </tr>
+            <tr>
+                <td class="rt">A3</td>
+                <td class="rt">B3</td>
+                <td class="rt">C3</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+            <tr>
+                <td>Coisas</td>
+                <td>Coisas</td>
+                <td>Coisas</td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

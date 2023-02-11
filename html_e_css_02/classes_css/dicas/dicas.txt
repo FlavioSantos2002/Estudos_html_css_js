@@ -7,3 +7,10 @@ https://www.youtube.com/watch?v=zXfTjPrMC_0&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgV
 https://www.youtube.com/watch?v=WPtRX4n0UJs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22
 
 https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=23
+
+pseudo class que pula de "n" em n elementos:
+:nth-child(2n){ --> obs("vai fazer efeitos pulando de 2 em 2)
+
+}
+
+https://youtu.be/IYUiFRE5hpI
