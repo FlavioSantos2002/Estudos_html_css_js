@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+iframe{
+    background-color: rgba(255, 192, 203, 0.554);
+    height: 55vh;
+    position: absolute;
+    left: 2.399vh;
+    transform: translate(0em, 9.1vh);
+    width: 31.1vh;
+    border: none;
+
+}
+
+
+.paicell{
+    position: relative;
+}
+
+.cell{
+    width: 32ch;
+    height: 60ch;
+    background-image: url(../imagens/frame-iphone.png);
+    position: absolute;
+    background-size: 36vh;
+    left: 50%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 15%);
+}
+
+.menu{
+    position: absolute;
+    left: 100%;
+    transform: translate(-108%, 4%);
+}
+
+
+.botao{
+    margin-top: 2vh;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 100%;
+    border: none;
+}
+
+#home{
+    background-image: url(../imagens/logo-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#insta{
+    background-image: url(../imagens/logo-instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#gh{
+    background-image: url(../imagens/logo-github.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#yt{
+    background-image: url(../imagens/logo-youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tt{
+    background-image: url(../imagens/logo-twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#face{
+    background-image: url(../imagens/logo-facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ca{
+    color: rgba(240, 248, 255, 0);
+}
