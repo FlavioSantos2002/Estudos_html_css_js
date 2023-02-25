@@ -6,7 +6,7 @@ iframe{
     position: absolute;
     left: 2.399vh;
     transform: translate(0em, 9.1vh);
-    width: 31.1vh;
+    width: 31.3vh;
     border: none;
 
 }
@@ -78,6 +78,41 @@ iframe{
     background-size: 100%;
 }
 
-.ca{
-    color: rgba(240, 248, 255, 0);
+/*ANIMAÇÕES BOTÕES*/
+
+
+#home:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
+}
+
+#yt:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
+}
+
+#tt:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
+}
+
+#insta:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
+}
+
+#gh:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
+}
+
+#face:hover{
+    box-shadow: 0px 0px 50px black;
+    background-size: 120%;
+    background-position: center center;
 }
