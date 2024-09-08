@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Questionário</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Gerador de Questionário</h1>
+        <input type="file" id="questionsFile" accept=".docx">
+        <input type="file" id="answersFile" accept=".docx">
+        <button id="generateButton">Gerar Questionário</button>
+        <div id="questionnaire"></div>
+        <button id="finishButton" style="display:none;">Finalizar</button>
+    </div>
+
+    <div id="questionnaire"></div>
+
+
+    <div id="officialAnswerSection" style="display: none;">
+        <label for="officialAnswer">Insira o gabarito oficial:</label>
+        <input type="text" id="officialAnswer">
+        <button id="submitOfficialAnswer">Verificar acertos</button>
+    </div>
+
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

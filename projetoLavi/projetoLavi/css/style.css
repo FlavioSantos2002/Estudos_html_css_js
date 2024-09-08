@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Adicione o estilo básico aqui */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(216, 216, 226);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-color: black;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.options {
+    margin-left: 20px;
+}
